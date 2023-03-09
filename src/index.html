@@ -7,7 +7,7 @@
     <title>Responsive Web Design</title>
   </head>
   <body>
-    <!-- Prioritize One Style Over Another -->
+    <!-- Override Styles in Subsequent CSS -->
     <style>
       body {
         background-color: black;
@@ -17,7 +17,10 @@
       .pink-text {
         color: pink;
       }
+      .blue-text {
+        color: blue;
+      }
     </style>
-    <h1 class="pink-text">Hello World!</h1>
+    <h1 class="blue-text pink-text">Hello World!</h1>
   </body>
 </html>
