@@ -7,7 +7,7 @@
     <title>Responsive Web Design</title>
   </head>
   <body>
-    <!-- Override Styles in Subsequent CSS -->
+    <!-- Override Class Declarations by Styling ID Attributes -->
     <style>
       body {
         background-color: black;
@@ -20,7 +20,10 @@
       .blue-text {
         color: blue;
       }
+      #orange-text {
+        color: orange;
+      }
     </style>
-    <h1 class="blue-text pink-text">Hello World!</h1>
+    <h1 class="pink-text blue-text" id="orange-text">Hello World!</h1>
   </body>
 </html>
